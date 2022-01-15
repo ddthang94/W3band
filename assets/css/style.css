@@ -25,6 +25,8 @@ Tong quan den chi tiet
 #main {
 
 }
+
+/* CSS header */
 #header {
     height: 46.5px;
     background-color: #000;
@@ -32,6 +34,7 @@ Tong quan den chi tiet
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 #header .search-btn {
     float: right;
@@ -98,9 +101,34 @@ Tong quan den chi tiet
     font-size: 14px;
 }
 
+/* CSS slider */
 #slider {
     margin-top: 46.5px;
+    padding-top: 50%;
+    background: url(/assets/img/slider/silder_1.jpg) top center / cover no-repeat;
+    position: relative;
 }
+#slider .text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    /* left: 50%;
+    transform: translateX(-50%); 
+    or
+    left: 0;
+    right: 0;*/
+    width: 100%;
+    text-align: center;
+}
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
 #content {
 
 }
