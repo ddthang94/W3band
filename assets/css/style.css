@@ -21,6 +21,9 @@ Tu ngoai vao trong
 Tu tren xuong duoi
 Tong quan den chi tiet
 */
+.clear {
+    clear: both;
+}
 
 #main {
 
@@ -158,7 +161,23 @@ Tong quan den chi tiet
     text-align: justify;
     line-height: 1.4;
 }
-
+#content .member-list {
+    margin-top: 48px;
+}
+#content .member-items {
+    float: left;
+    width: 33.33333%;
+    /* width: calc(100%/3); */
+    text-align: center;
+}
+#content .member-name {
+    font-size: 15px;
+}
+#content .member-image {
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
 
 #footer {
 
