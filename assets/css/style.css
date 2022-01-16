@@ -24,6 +24,9 @@ Tong quan den chi tiet
 .clear {
     clear: both;
 }
+.text-white {
+    color: #fff !important;
+}
 
 #main {
 
@@ -136,6 +139,7 @@ Tong quan den chi tiet
 #content {
 
 }
+/* About section */
 #content .content-section {
     width: 800px;
     padding: 64px 16px;
@@ -178,7 +182,40 @@ Tong quan den chi tiet
     width: 154px;
     border-radius: 4px;
 }
+/* Tour section */
+#content .tour-section {
+    background-color: #000;
+}
+.ticket-list {
+    background-color: #fff;
+    margin-top: 40px;
+    list-style: none;
+}
+.ticket-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.ticket-list .solid-out {
+    color: #fff;
+    background-color: #f44336;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+.ticket-list .quantity {
+    float: right;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -3px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #000;
+}
 
+/* Footer */
 #footer {
 
 }
