@@ -214,6 +214,55 @@ Tong quan den chi tiet
     text-align: center;
     background-color: #000;
 }
+/* Place */
+.places-list {
+    margin-top: 32px;
+    margin-left: -8px;
+    margin-right: -8px;
+    /* margin: 32px -8px 0; */
+    padding-bottom: 48px;
+}
+.place-item {
+    float: left;
+    width: 33.3333%;
+    padding: 0 8px;
+}
+.place-img {
+    width: 100%;
+    display: block;
+}
+.place-img:hover {
+    opacity: 0.6;
+}
+.place-content {
+    padding: 16px;
+    font-size: 15px;
+    background-color: #fff;
+}
+.place-heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+.place-date {
+    margin-top: 15px;
+    color: #757575;
+}
+.place-desc {
+    margin-top: 15px;
+    line-height: 1.4;
+}
+.buy-ticket-btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.buy-ticket-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
 
 /* Footer */
 #footer {
