@@ -293,6 +293,7 @@ Tong quan den chi tiet
     max-width: calc(100% - 300px);
     min-height: 200px;
     position: relative;
+    animation: modalAnimation ease .5s;
 }
 .modal-header {
     background: #009688;
@@ -352,4 +353,15 @@ Tong quan den chi tiet
 }
 .modal-footer a {
     color: #2196F3;
+}
+
+@keyframes modalAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
