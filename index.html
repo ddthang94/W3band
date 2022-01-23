@@ -68,7 +68,7 @@
                         <img src="/assets/img/team/bandmember.jpg" alt="Photo of team's member" class="member-image">
                     </div>
                     <!-- fix the issue when using float: left -->
-                    <div class="clear"></div>
+                    <!-- <div class="clear"></div> check css .row::after -->
                 </div>
             </div>
 
@@ -114,7 +114,7 @@
                                 <button href="#" class="buy-ticket-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="clear"></div>
+                        <!-- <div class="clear"></div> check css .row::after -->
                     </div>
                 </div>
             </div>
@@ -123,6 +123,33 @@
             <div class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
+
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <!-- <div class="clear"></div> check css .row::after -->
+                            <div class="row margintop-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="form-submit-btn margintop-16" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -139,7 +166,7 @@
 
             <header class="modal-header">
                 <i class="modal-heading-icon ti-bag"></i>
-                Ticket
+                Tickets
             </header>
 
             <div class="modal-body">

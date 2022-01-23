@@ -30,11 +30,16 @@ Tong quan den chi tiet
     color: #fff !important;
 }
 .text-center {
-    text-align: center;
+    text-align: center !important;
 }
 .row {
     margin-right: -8px;
     margin-left: -8px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 .col {
     float: left;
@@ -46,6 +51,16 @@ Tong quan den chi tiet
 }
 .col-half {
     width: 50%;
+}
+.col-full {
+    width: 100%;
+}
+
+.margintop-8 {
+    margin-top: 8px !important;
+}
+.margintop-16 {
+    margin-top: 16px !important;
 }
 
 /* Main */
@@ -244,9 +259,9 @@ Tong quan den chi tiet
     margin-right: -8px;
     padding-bottom: 48px; */
     /* margin: 32px -8px 0; */
+    /* inherit from row */
     margin-top: 32px;
     margin-bottom: 48px;
-    /* inherit from row */
 }
 /*.place-item {
     float: left; 
@@ -289,6 +304,39 @@ Tong quan den chi tiet
     color: #000;
     background-color: #ccc;
 }
+/* Contact form */
+.contact-content {
+    margin-top: 48px;
+}
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* CSS selector class name */
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+.contact-form {
+    font-size: 15px;
+}
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.contact-form .form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    float: right;
+}
+.contact-form .form-submit-btn:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
 
 /* Footer */
 #footer {
@@ -329,6 +377,7 @@ Tong quan den chi tiet
     justify-content: center;
     font-size: 30px;
     color: #fff;
+    letter-spacing: 4px;
 }
 .modal-heading-icon {
     margin-right: 16px;
