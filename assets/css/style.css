@@ -178,7 +178,7 @@ Tong quan den chi tiet
 /* About section */
 #content .content-section {
     width: 800px;
-    padding: 64px 16px;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -261,7 +261,7 @@ Tong quan den chi tiet
     /* margin: 32px -8px 0; */
     /* inherit from row */
     margin-top: 32px;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; css: content-section */
 }
 /*.place-item {
     float: left; 
