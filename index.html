@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/font_icons/themify-icons.css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/img/images.png">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 <body>
 <!-- BEGIN PAGE -->
@@ -22,7 +23,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
@@ -38,6 +39,10 @@
         <!-- Begin: search button -->
         <div class="search-btn">
             <i class="search-icon ti-search"></i>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu-btn">
+            <i class="menu-icon ti-menu"></i>
         </div>
          <!-- End: search button -->
         </div>
@@ -251,6 +256,32 @@
         modalContainer.addEventListener('click', function (event) {
             event.stopPropagation()
         })
+    </script>
+
+    <!-- Menu button in mobile mode -->
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        // close & open
+        mobileMenu.onclick = function() {
+            var isClose = header.clientHeight === headerHeight;
+            if (isClose) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+        // Automatic close menu when click on element
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        for (var i=0; i<menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function() {
+                header.style.height = null;
+            }
+        }
     </script>
 </body>
 </html>

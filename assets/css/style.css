@@ -78,15 +78,24 @@ Tong quan den chi tiet
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
-    cursor: pointer;
 }
 #header .search-btn:hover {
+    cursor: pointer;
     background-color: #f44336;
 }
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+#header .mobile-menu-btn .menu-icon:hover {
+    color: #000;
+}
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     font-size: 20px;
