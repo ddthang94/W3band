@@ -22,7 +22,7 @@ Tu tren xuong duoi
 Tong quan den chi tiet
 */
 
-/* common use */
+/* CSS common use */
 .clear {
     clear: both;
 }
@@ -63,7 +63,7 @@ Tong quan den chi tiet
     margin-top: 16px !important;
 }
 
-/* Main */
+/* CSS main */
 #main {
 
 }
@@ -92,7 +92,7 @@ Tong quan den chi tiet
     line-height: 46.5px;
 }
 
-/* Navigation */
+/* CSS navigation */
 #nav {
     display: inline-block;
 }
@@ -118,7 +118,6 @@ Tong quan den chi tiet
 #nav li:hover .subnav{
     display: block;
 }
-
 #nav .subnav li:hover a,
 #nav > li:hover > a {
     color: #000;
@@ -175,7 +174,8 @@ Tong quan den chi tiet
 #content {
 
 }
-/* About section */
+
+/* CSS about */
 #content .content-section {
     width: 800px;
     padding: 64px 0 112px;
@@ -220,7 +220,8 @@ Tong quan den chi tiet
     width: 154px;
     border-radius: 4px;
 }
-/* Tour section */
+
+/* CSS tour */
 #content .tour-section {
     background-color: #000;
 }
@@ -252,7 +253,8 @@ Tong quan den chi tiet
     text-align: center;
     background-color: #000;
 }
-/* Place */
+
+/* CSS place */
 .places-list {
     /* margin-top: 32px;
     margin-left: -8px;
@@ -312,6 +314,7 @@ Tong quan den chi tiet
     font-size: 18px;
     line-height: 1.5;
 }
+
 /* CSS selector class name */
 .contact-info i[class*="ti-"] {
     width: 30px;
@@ -338,12 +341,17 @@ Tong quan den chi tiet
     cursor: pointer;
 }
 
-/* Footer */
+/* CSS map */
+.map-section img {
+    width: 100%;
+}
+
+/* CSS footer */
 #footer {
 
 }
 
-/* MODAL */
+/* CSS modal*/
 .modal {
     position: fixed;
     top: 0;
@@ -360,7 +368,6 @@ Tong quan den chi tiet
 .modal.open {
     display: flex;
 }
-
 .modal-container {
     background-color: #fff;
     width: 900px;
@@ -429,7 +436,6 @@ Tong quan den chi tiet
 .modal-footer a {
     color: #2196F3;
 }
-
 @keyframes modalAnimation {
     from {
         opacity: 0;

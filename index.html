@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="./assets/font_icons/themify-icons.css">
 </head>
 <body>
+<!-- BEGIN PAGE -->
     <div id="main">
+        <!-- Begin: Slider -->
         <div id="header">
-        <!-- Begin nav -->
+        <!-- Begin: nav -->
             <ul id="nav">
                 <li><a href="">Home</a></li>
                 <li><a href="">Band</a></li>
@@ -29,25 +31,30 @@
                     </ul>
                 </li>
             </ul>
-        <!-- End nav -->
+        <!-- End: nav -->
         
         <!-- Begin: search button -->
         <div class="search-btn">
             <i class="search-icon ti-search"></i>
         </div>
-         <!-- End -->
+         <!-- End: search button -->
         </div>
-        
+        <!-- End: header -->
+
+        <!-- Begin: Slider -->
         <div id="slider">
             <div class="text-content">
                 <h2 class="text-heading">Chicago</h2>
                 <p class="text-description">Thank you, Chicago - A night we won't forget.</p>
             </div>
         </div>
+        <!-- End: Slider -->
 
+        <!-- Begin: content -->
         <div id="content" style="height: 1000px">
             <!-- contain all the content from the website -->
-            <!-- About section -->
+            
+            <!-- Begin: About -->
             <div class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music</p>
@@ -71,8 +78,9 @@
                     <!-- <div class="clear"></div> check css .row::after -->
                 </div>
             </div>
+            <!-- End: About -->
 
-            <!-- Tour section -->
+            <!-- Begin: Tour section -->
             <div class="tour-section">
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
@@ -118,8 +126,9 @@
                     </div>
                 </div>
             </div>
+            <!-- End: Tour section -->
 
-            <!-- Contact section -->
+            <!-- Begin: Contact section -->
             <div class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
@@ -151,13 +160,25 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- End: Contact section -->
 
+            <!-- Begin: MAP -->
+            <div class="map-section">
+                <img src="./assets/img/map/map.jpg" alt="Map">
+            </div>
+            <!-- End: MAP -->
+        </div>
+        <!-- End: content -->
+
+        <!-- Begin: footer -->
         <div id="footer">
 
         </div>
+        <!-- End: footer -->
     </div>
-    <!-- MODAL -->
+<!-- END PAGE -->
+
+    <!-- Begin: MODAL -->
     <div class="modal js-modal">
         <div class="modal-container js-modal-container">
             <div class="modal-close js-modal-close">
@@ -192,6 +213,7 @@
             </footer>
         </div>
     </div>
+    <!-- End: MODAL -->
     <script>
         // Variable declaration
         const buyBtns = document.querySelectorAll('.js-buy-ticket')
