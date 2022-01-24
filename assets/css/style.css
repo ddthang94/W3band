@@ -80,6 +80,11 @@ Tong quan den chi tiet
     z-index: 1;
     overflow: hidden;
 }
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 #header .mobile-menu-btn,
 #header .search-btn {
     float: right;
