@@ -301,6 +301,8 @@ Tong quan den chi tiet
     padding: 11px 16px;
     display: inline-block;
     margin-top: 15px;
+    border: none;
+    cursor: pointer;
 }
 .buy-ticket-btn:hover {
     color: #000;
@@ -331,13 +333,14 @@ Tong quan den chi tiet
 .contact-form .form-submit-btn {
     background-color: #000;
     color: #fff;
-    border: 1px solid #000;
+    border: none;
     padding: 10px 16px;
     float: right;
 }
 .contact-form .form-submit-btn:hover {
     color: #000;
     background-color: #ccc;
+    border: none;
     cursor: pointer;
 }
 
