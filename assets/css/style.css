@@ -1,13 +1,13 @@
 /* Reset CSS */
 * {
-    /* Emmet */
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  /* Emmet */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* 
@@ -25,202 +25,199 @@ Tong quan den chi tiet
 
 /* CSS common use */
 .clear {
-    clear: both;
+  clear: both;
 }
 .text-white {
-    color: #fff !important;
+  color: #fff !important;
 }
 .text-center {
-    text-align: center !important;
+  text-align: center !important;
 }
 .row {
-    margin-right: -8px;
-    margin-left: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
 }
 .row::after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 .col {
-    float: left;
-    padding-right: 8px;
-    padding-left: 8px;
+  float: left;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 .col-third {
-    width: 33.3333%;
+  width: 33.3333%;
 }
 .col-half {
-    width: 50%;
+  width: 50%;
 }
 .col-full {
-    width: 100%;
+  width: 100%;
 }
 
 .margintop-8 {
-    margin-top: 8px !important;
+  margin-top: 8px !important;
 }
 .margintop-16 {
-    margin-top: 16px !important;
+  margin-top: 16px !important;
 }
 
 /* CSS main */
 #main {
-
 }
 
 /* CSS header */
 #header {
-    height: 46.5px;
-    background-color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    overflow: hidden;
+  height: 46.5px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 #header .mobile-menu-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 #header .mobile-menu-btn,
 #header .search-btn {
-    float: right;
-    padding: 0 21px;
+  float: right;
+  padding: 0 21px;
 }
 #header .search-btn:hover {
-    cursor: pointer;
-    background-color: #f44336;
+  cursor: pointer;
+  background-color: #f44336;
 }
 #header .mobile-menu-btn:hover {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 #header .mobile-menu-btn .menu-icon:hover {
-    color: #000;
+  color: #000;
 }
 #header .menu-icon,
 #header .search-icon {
-    color: #fff;
-    font-size: 20px;
-    line-height: 46.5px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 46.5px;
 }
 
 /* CSS navigation */
 #nav {
-    display: inline-block;
+  display: inline-block;
 }
-#nav, .subnav {
-    list-style-type: none;
+#nav,
+.subnav {
+  list-style-type: none;
 }
 #nav > li {
-    display: inline-block;
+  display: inline-block;
 }
 #nav li {
-    position: relative;
+  position: relative;
 }
 #nav > li > a {
-    color: #fff;
-    text-transform: uppercase;
+  color: #fff;
+  text-transform: uppercase;
 }
 #nav li a {
-    display: block;
-    text-decoration: none;
-    line-height: 46.5px;
-    padding: 0 24px;
+  display: block;
+  text-decoration: none;
+  line-height: 46.5px;
+  padding: 0 24px;
 }
-#nav li:hover .subnav{
-    display: block;
+#nav li:hover .subnav {
+  display: block;
 }
 #nav .subnav li:hover a,
 #nav > li:hover > a {
-    color: #000;
-    background-color: #ccc;
-
+  color: #000;
+  background-color: #ccc;
 }
 #nav .subnav {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 #nav .subnav a {
-    color: #000;
-    padding: 0 12px;
-    line-height: 38px;
+  color: #000;
+  padding: 0 12px;
+  line-height: 38px;
 }
 #nav .nav-arrow-down {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* CSS slider */
 #slider {
-    margin-top: 46.5px;
-    padding-top: 50%;
-    background: url(/assets/img/slider/silder_1.jpg) top center / cover no-repeat;
-    position: relative;
+  margin-top: 46.5px;
+  padding-top: 50%;
+  background: url(/assets/img/slider/silder_1.jpg) top center / cover no-repeat;
+  position: relative;
 }
 #slider .text-content {
-    position: absolute;
-    bottom: 47px;
-    color: #fff;
-    /* left: 50%;
+  position: absolute;
+  bottom: 47px;
+  color: #fff;
+  /* left: 50%;
     transform: translateX(-50%); 
     or
     left: 0;
     right: 0;*/
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 #slider .text-heading {
-    font-weight: 500;
-    font-size: 24px;
+  font-weight: 500;
+  font-size: 24px;
 }
 #slider .text-description {
-    font-size: 15px;
-    margin-top: 25px;
+  font-size: 15px;
+  margin-top: 25px;
 }
 
 /* CSS content */
 #content {
-
 }
 
 /* CSS about */
 #content .content-section {
-    width: 800px;
-    max-width: 100%;
-    padding: 64px 0 112px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+  width: 800px;
+  max-width: 100%;
+  padding: 64px 0 112px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 #content .section-heading {
-    font-weight: 500;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 4px;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 4px;
 }
 #content .section-sub-heading {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 25px;
-    font-style: italic;
-    opacity: 0.5;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 25px;
+  font-style: italic;
+  opacity: 0.5;
 }
 #content .about-content {
-    font-size: 15px;
-    margin-top: 25px;
-    text-align: justify;
-    line-height: 1.4;
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: justify;
+  line-height: 1.4;
 }
 #content .member-list {
-    margin-top: 48px;
+  margin-top: 48px;
 }
 /* replace by text-center */
 /* #content .member-items {
@@ -231,57 +228,57 @@ Tong quan den chi tiet
     text-align: center;
 } */
 #content .member-name {
-    font-size: 15px;
+  font-size: 15px;
 }
 #content .member-image {
-    margin-top: 15px;
-    width: 154px;
-    border-radius: 4px;
+  margin-top: 15px;
+  width: 154px;
+  border-radius: 4px;
 }
 
 /* CSS tour */
 #content .tour-section {
-    background-color: #000;
+  background-color: #000;
 }
 .ticket-list {
-    background-color: #fff;
-    margin-top: 40px;
-    list-style: none;
+  background-color: #fff;
+  margin-top: 40px;
+  list-style: none;
 }
 .ticket-list li {
-    color: #757575;
-    font-size: 15px;
-    padding: 11px 16px;
-    border-bottom: 1px solid #ddd;
+  color: #757575;
+  font-size: 15px;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
 }
 .ticket-list .solid-out {
-    color: #fff;
-    background-color: #f44336;
-    padding: 3px 4px;
-    margin-left: 16px;
+  color: #fff;
+  background-color: #f44336;
+  padding: 3px 4px;
+  margin-left: 16px;
 }
 .ticket-list .quantity {
-    float: right;
-    color: #fff;
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-    margin-top: -3px;
-    border-radius: 50%;
-    text-align: center;
-    background-color: #000;
+  float: right;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  margin-top: -3px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #000;
 }
 
 /* CSS place */
 .places-list {
-    /* margin-top: 32px;
+  /* margin-top: 32px;
     margin-left: -8px;
     margin-right: -8px;
     padding-bottom: 48px; */
-    /* margin: 32px -8px 0; */
-    /* inherit from row */
-    margin-top: 32px;
-    /* margin-bottom: 48px; css: content-section */
+  /* margin: 32px -8px 0; */
+  /* inherit from row */
+  margin-top: 32px;
+  /* margin-bottom: 48px; css: content-section */
 }
 /*.place-item {
     float: left; 
@@ -289,200 +286,200 @@ Tong quan den chi tiet
     padding: 0 8px; 
 }*/
 .place-img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 .place-img:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 .place-content {
-    padding: 16px;
-    font-size: 15px;
-    background-color: #fff;
+  padding: 16px;
+  font-size: 15px;
+  background-color: #fff;
 }
 .place-heading {
-    font-size: 15px;
-    font-weight: 600;
+  font-size: 15px;
+  font-weight: 600;
 }
 .place-date {
-    margin-top: 15px;
-    color: #757575;
+  margin-top: 15px;
+  color: #757575;
 }
 .place-desc {
-    margin-top: 15px;
-    line-height: 1.4;
+  margin-top: 15px;
+  line-height: 1.4;
 }
 .buy-ticket-btn {
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 11px 16px;
-    display: inline-block;
-    margin-top: 15px;
-    border: none;
-    cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
 }
 .buy-ticket-btn:hover {
-    color: #000;
-    background-color: #ccc;
+  color: #000;
+  background-color: #ccc;
 }
 /* Contact form */
 .contact-content {
-    margin-top: 48px;
+  margin-top: 48px;
 }
 .contact-info {
-    font-size: 18px;
-    line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /* CSS selector class name */
 .contact-info i[class*="ti-"] {
-    width: 30px;
-    display: inline-block;
+  width: 30px;
+  display: inline-block;
 }
 .contact-form {
-    font-size: 15px;
+  font-size: 15px;
 }
 .contact-form .form-control {
-    padding: 10px;
-    border: 1px solid #ccc;
-    width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
 }
 .contact-form .form-submit-btn {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 10px 16px;
-    float: right;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  float: right;
 }
 .contact-form .form-submit-btn:hover {
-    color: #000;
-    background-color: #ccc;
-    border: none;
-    cursor: pointer;
+  color: #000;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
 }
 
 /* CSS map */
 .map-section img {
-    width: 100%;
+  width: 100%;
 }
 
 /* CSS footer */
 #footer {
-    padding: 64px 16px;
-    text-align: center;
+  padding: 64px 16px;
+  text-align: center;
 }
 #footer .socials-list {
-    font-size: 24px;
+  font-size: 24px;
 }
 #footer .socials-list a {
-    color: rgba(0, 0, 0, 0.6);
-    text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
 }
 #footer .copyright {
-    margin-top: 15px;
-    color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.6);
 }
 #footer .copyright a {
-    color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 #footer .copyright a:hover,
 #footer .socials-list a:hover {
-    color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /* CSS modal*/
 .modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.4);
-    align-items: center;
-    justify-content: center;
-    display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
 
 /* Using Javascript to add button functioning */
 .modal.open {
-    display: flex;
+  display: flex;
 }
 .modal-container {
-    background-color: #fff;
-    width: 900px;
-    max-width: calc(100% - 300px);
-    min-height: 200px;
-    position: relative;
-    animation: modalAnimation ease .5s;
+  background-color: #fff;
+  width: 900px;
+  max-width: calc(100% - 300px);
+  min-height: 200px;
+  position: relative;
+  animation: modalAnimation ease 0.5s;
 }
 .modal-header {
-    background: #009688;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    color: #fff;
-    letter-spacing: 4px;
+  background: #009688;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 4px;
 }
 .modal-heading-icon {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 .modal-close {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #fff;
-    padding: 12px;
-    cursor: pointer;
-    opacity: 0.8;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 12px;
+  cursor: pointer;
+  opacity: 0.8;
 }
 .modal-close:hover {
-    opacity: 1;
+  opacity: 1;
 }
 .modal-body {
-    padding: 16px;
+  padding: 16px;
 }
 .modal-label {
-    display: block;
-    font-size: 15px;
-    margin-bottom: 12px;;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 12px;
 }
 .modal-input {
-    border: 1px solid #ccc;
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    margin-bottom: 24px;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 24px;
 }
 #buy-ticket {
-    background: #009688;
-    border: none;
-    color: #fff;
-    width: 100%;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 16px;
-    cursor: pointer;
+  background: #009688;
+  border: none;
+  color: #fff;
+  width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 16px;
+  cursor: pointer;
 }
 #buy-ticket:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 .modal-footer {
-    padding: 16px;
-    text-align: right;
+  padding: 16px;
+  text-align: right;
 }
 .modal-footer a {
-    color: #2196F3;
+  color: #2196f3;
 }
 @keyframes modalAnimation {
-    from {
-        opacity: 0;
-        transform: translateY(-140px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-140px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
