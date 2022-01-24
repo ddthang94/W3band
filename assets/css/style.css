@@ -7,7 +7,7 @@
 }
 html {
   scroll-behavior: smooth;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 /* 
@@ -56,12 +56,14 @@ Tong quan den chi tiet
 .col-full {
   width: 100%;
 }
-
 .margintop-8 {
   margin-top: 8px !important;
 }
 .margintop-16 {
   margin-top: 16px !important;
+}
+.margintop-32 {
+  margin-top: 32px !important;
 }
 
 /* CSS main */
@@ -217,7 +219,7 @@ Tong quan den chi tiet
   line-height: 1.4;
 }
 #content .member-list {
-  margin-top: 48px;
+  margin-top: 32px;
 }
 /* replace by text-center */
 /* #content .member-items {
@@ -231,8 +233,8 @@ Tong quan den chi tiet
   font-size: 15px;
 }
 #content .member-image {
-  margin-top: 15px;
   width: 154px;
+  margin-top: 15px;
   border-radius: 4px;
 }
 
